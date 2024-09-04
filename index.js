@@ -35,5 +35,18 @@ const student = {
         marks: 30
     }
 };
-
+// student.id = 3333;
+student.name.toLowerCase();
+console.log(student);
 console.log(student.physics.marks);
+// task-4 start here;
+// Count the number of properties.
+
+let students = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
+};
+
+console.log(Object.keys(students).length);
